@@ -71,6 +71,10 @@
                     "title": "PostgreSQL"
                 },
                 {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
+                },
+                {
                     "icon": "images/skills/sql.svg",
                     "title": "SQL"
                 },

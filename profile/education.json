@@ -1,19 +1,31 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Sep 2023 - Exp. Mar 2025",
+            "cardTitle": "MS, Applied Machine Intelligence",
+            "cardSubtitle":"Northeastern University, Boston",
+            "cardDetailedText": ["Courses: Fundamentals of AI, Appications of AI, Data management & Big Data, Data Mining, Data Governance", "CGPA - 3.55/4"],
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/northeastern.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jul 2017 - May 2019",
+            "cardTitle": "Masters, Computer Engineering",
+            "cardSubtitle": "NMIMS University, Mumbai",
+            "cardDetailedText": ["Courses: Artificial Intelligence, Image Processing, Advance Algorithms, Distributed Computing, Advanced Databases"],
+            "icon" : {
+                "src": "images/education/nmims.png"
+            }
+        },
+        {
+            "title": "Jul 2013 - May 2017",
+            "cardTitle": "Bachelors, Computer Engineering",
+            "cardSubtitle": "University of Mumbai",
+            "cardDetailedText": ["Courses: Data structures, Database Management Systems, Algorithms, Operating systems, Digital Logic"],
+            "icon" : {
+                "src": "images/education/dbit.png"
+            }
         }
     ]
 }
