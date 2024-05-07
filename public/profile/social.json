@@ -2,15 +2,23 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/malak-parmar/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/malak29"
+        },
+        {
+            "network" : "instagram",
+            "href": "https://www.instagram.com/malak_dranz0r/"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:malakparmar.29@gmail.com"
+        },
+        {
+            "network" : "whatsapp",
+            "href": "https://wa.me/18573966817"
         }
     ]
 }

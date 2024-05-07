@@ -46,26 +46,48 @@ function Skills(props) {
           <div className="section-content-container">
             <Container>
               {renderSkillsIntro(data.intro)}
-              {data.skills?.map((rows) => (
-                <div key={rows.title}>
-                  <br />
-                  <h3>{rows.title}</h3>
-                  {rows.items.map((item) => (
-                    <div key={item.title} style={{ display: 'inline-block' }}>
-                      <img
-                        style={styles.iconStyle}
-                        src={item.icon}
-                        alt={item.title}
-                      />
-                      <p>{item.title}</p>
+              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <div>
+                  {data.skills?.map((rows) => (
+                    <div key={rows.title}>
+                      <br />
+                      <h3>{rows.title}</h3>
+                      {rows.items.map((item) => (
+                        <div key={item.title} style={{ display: 'inline-block' }}>
+                          <img
+                            style={styles.iconStyle}
+                            src={item.icon}
+                            alt={item.title}
+                          />
+                          <p>{item.title}</p>
+                        </div>
+                      ))}
                     </div>
                   ))}
                 </div>
-              ))}
+                <div>
+                  {data.skills2?.map((rows) => (
+                    <div key={rows.title}>
+                      <br />
+                      <h3>{rows.title}</h3>
+                      {rows.items.map((item) => (
+                        <div key={item.title} style={{ display: 'inline-block' }}>
+                          <img
+                            style={styles.iconStyle}
+                            src={item.icon}
+                            alt={item.title}
+                          />
+                          <p>{item.title}</p>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              </div>
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : <FallbackSpinner />}
     </>
   );
 }

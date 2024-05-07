@@ -44,6 +44,8 @@ function Home() {
               loop: true,
               autoStart: true,
               strings: data?.roles,
+              delay: 20,
+              deleteSpeed: 20,
             }}
           />
         </div>
