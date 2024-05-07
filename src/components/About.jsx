@@ -51,20 +51,20 @@ function About(props) {
           {data
             ? (
               <Fade>
-                {window?.innerWidth < 576 && (
+                {window?.innerWidth < 576 ? (
                   <Row style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" style={{ width: '82%' }} />
                   </Row>
-                )}
+                ) : <></>}
                 <Row>
                   <Col style={styles.introTextContainer}>
                     {parseIntro(data.about)}
                   </Col>
-                  {window?.innerWidth > 576 && (
+                  {window?.innerWidth > 576 ? (
                     <Col style={styles.introImageContainer}>
                       <img src={data?.imageSource} alt="profile" style={{ width: '82%' }} />
                     </Col>
-                  )}
+                  ) : <></>}
                 </Row>
               </Fade>
             )
