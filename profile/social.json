@@ -9,8 +9,16 @@
             "href": "https://github.com/malak29"
         },
         {
+            "network" : "instagram",
+            "href": "https://www.instagram.com/malak_dranz0r/"
+        },
+        {
             "network" : "email",
             "href": "mailto:malakparmar.29@gmail.com"
+        },
+        {
+            "network" : "whatsapp",
+            "href": "https://wa.me/18573966817"
         }
     ]
 }
