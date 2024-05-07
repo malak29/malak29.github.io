@@ -9,13 +9,14 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   iconStyle: {
-    height: 75,
-    width: 75,
-    margin: 10,
+    height: 50,
+    width: 50,
+    margin: 15,
     marginBottom: 0,
   },
   introTextContainer: {
     whiteSpace: 'pre-wrap',
+    fontSize: '1.5rem',
   },
 };
 
@@ -46,7 +47,7 @@ function Skills(props) {
           <div className="section-content-container">
             <Container>
               {renderSkillsIntro(data.intro)}
-              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                 <div>
                   {data.skills?.map((rows) => (
                     <div key={rows.title}>

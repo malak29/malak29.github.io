@@ -35,7 +35,7 @@ function Education(props) {
     } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
       setWidth('75vw');
     } else {
-      setWidth('50vw');
+      setWidth('70vw');
     }
   }, []);
 
@@ -51,11 +51,11 @@ function Education(props) {
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
-                cardHeight={250}
+                cardHeight={200}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
-                  secondary: theme.accentColor,
+                  secondary: theme.chronoTheme.cardSelection,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
                   titleColor: theme.chronoTheme.titleColor,

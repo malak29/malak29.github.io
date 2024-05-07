@@ -82,16 +82,19 @@
 
 section.timeline-card-content {
   justify-content: center;
+  
 }
 
-section.timeline-card-content p.card-title {
+section.timeline-card-content p.rc-card-title {
   font-size: 1.5em;
   margin-top: 25px;
+  padding-left: 1rem !important;
 }
 
 section.timeline-card-content p.card-sub-title {
   font-size: 1.25em;
   margin-top: 10px;
+  padding-left: 1rem !important;
 }
 
 section.timeline-card-content div.card-description > p {
@@ -145,6 +148,5 @@ section.timeline-card-content div.card-description > p {
 .header {
   font-size: 3em;
   font-weight: bold;
-  margin-bottom: 25px;
 }
 
