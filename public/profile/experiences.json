@@ -1,33 +1,39 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Software Engineer II",
+            "subtitle": "Philips",
+            "workType": "Bengaluru, India",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Utilized Python and OpenCV to create a patient detection module, improving diagnostic accuracy and operational efficiency across multiple radiology sites by analyzing image data from 10,000 patient scans monthly, leading to noticeable enhancements in efficiency and accuracy.",
+                "Led a log analytics project using predictive modeling, forecasting system errors and cutting technical debt by 30% through thorough data analysis, showcasing a strategic problem-solving approach.",
+                "Drove the development of key features like Audio/Video calling, Live streaming, PTZ, and privacy controls for a US-based radiology system, utilizing technologies such as React, Java, Python, Postgres, and Docker. This effort significantly expanded market reach and product capabilities, demonstrating adeptness in technology integration and product enhancement.",
+                "Achieved victory in the Philips Hackathon by devising and implementing an innovative module to showcase and experiment with product features, resulting in a 15% increase in sales and heightened product visibility, highlighting a strategic approach to innovation and market positioning."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Jul 2021 - Aug 2023"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Software Engineer I",
+            "subtitle": "Philips",
+            "workType": "Bengaluru, India",
             "workDescription": [
-                "Worked on abc."
+                "Enhanced system performance by 40% through strategic integration of Webpack's Module Federation and Twilio for live streaming and camera functionalities, optimizing the legacy architechture for US-based healthcare product.",
+                "Upheld a customer-first approach by ensuring high-quality coding standards, achieving over 80% unit test coverage using Jest, Jasmine, and Python's Unittest, guaranteeing robust performance aligned with Philips' design principles and tailored to meet the requirements of US clients.",
+                "Orchestrated the successful deployment of four significant features and software iterations, facilitating seamless product releases, while continuously innovating and enhancing platform versatility.",
+                "Developed and launched high-impact Cardiology dashboards in the Middle East, improving emergency response for cardiac arrest incidents. Utilized Google Maps API for real-time tracking, engineered Angular interfaces, and successfully deployed features to the Saudi Arabian healthcare market to reduce response time below 8 seconds."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "Aug 2019 - Jul 2021"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Blockchain research intern",
+            "subtitle": "Philips",
+            "workType": "Bengaluru, India",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Worked on Philips Bengaluru's first blockchain lab, focusing on developing robust healthcare applications and an internal Hyperledger-based smart contract framework.",
+                "Developed an organization-wide internal open-source smart contract platform using Hyperledger Fabric, Go lang, and Docker so that any Department/Team can deploy their smart contract and connect to the network of blockchain nodes.",
+                "Engineered a personal health record system and a consent management application on this network end to end utilizing React, Express, MySQL, and  FHIR HL7 by Analyzing user interactions and transaction data to enhance system security compliance by over 20% and reduce data breaches, showcasing proficiency in data analysis and optimization techniques. Culminating in a successful outcome acknowledged by coming runner up at Philips Hackathon"
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Aug 2018 – Jul 2019"
         }
     ]
 }
