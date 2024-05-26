@@ -37,7 +37,7 @@ const Projects = (props) => {
       <Header title={header} />
       {data
         ? (
-          <div className="section-content-container">
+          <div className="section-content-container" style={{ paddingTop: '3rem' }}>
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (

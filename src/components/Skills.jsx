@@ -13,10 +13,14 @@ const styles = {
     width: 50,
     margin: 15,
     marginBottom: 0,
+    cursor: 'pointer',
   },
   introTextContainer: {
     whiteSpace: 'pre-wrap',
     fontSize: '1.5rem',
+  },
+  skill: {
+    display: 'inline-block',
   },
 };
 
@@ -54,13 +58,13 @@ function Skills(props) {
                       <br />
                       <h3>{rows.title}</h3>
                       {rows.items.map((item) => (
-                        <div key={item.title} style={{ display: 'inline-block' }}>
+                        <div key={item.title} style={styles.skill}>
                           <img
                             style={styles.iconStyle}
                             src={item.icon}
                             alt={item.title}
                           />
-                          <p>{item.title}</p>
+                          <p style={{ cursor: 'pointer' }}>{item.title}</p>
                         </div>
                       ))}
                     </div>
@@ -72,13 +76,13 @@ function Skills(props) {
                       <br />
                       <h3>{rows.title}</h3>
                       {rows.items.map((item) => (
-                        <div key={item.title} style={{ display: 'inline-block' }}>
+                        <div key={item.title} style={styles.skill}>
                           <img
                             style={styles.iconStyle}
                             src={item.icon}
                             alt={item.title}
                           />
-                          <p>{item.title}</p>
+                          <p style={{ cursor: 'pointer' }}>{item.title}</p>
                         </div>
                       ))}
                     </div>
