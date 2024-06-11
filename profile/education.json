@@ -4,7 +4,7 @@
             "title": "Sep 2023 - Exp. Mar 2025",
             "cardTitle": "MS, Applied Machine Intelligence",
             "cardSubtitle":"Northeastern University, Boston",
-            "cardDetailedText": ["Courses: Fundamentals of AI, Appications of AI, Data management & Big Data, Data Mining, Data Governance", "CGPA - 3.6/4.0"],
+            "cardDetailedText": ["Courses: Fundamentals & Applications of AI, Data management & Big Data, Data Mining, Deep Learning, NLP, LLMs", "CGPA - 3.6/4.0"],
             "icon" : {
                 "src": "images/education/northeastern.png"
             }
