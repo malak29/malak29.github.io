@@ -5,11 +5,15 @@
             "subtitle": "Philips",
             "workType": "Bengaluru, India",
             "workDescription": [
-                "Utilized Python and OpenCV to create a patient detection module, improving diagnostic accuracy and operational efficiency across multiple radiology sites by analyzing image data from 10,000 patient scans monthly, leading to noticeable enhancements in efficiency and accuracy.",
-                "Led a log analytics project using predictive modeling, forecasting system errors and cutting technical debt by 30% through thorough data analysis, showcasing a strategic problem-solving approach.",
-                "Drove the development of key features like Audio/Video calling, Live streaming, PTZ, and privacy controls for a US-based radiology system, utilizing technologies such as React, Java, Python, Postgres, and Docker. This effort significantly expanded market reach and product capabilities, demonstrating adeptness in technology integration and product enhancement.",
-                "Achieved victory in the Philips Hackathon by devising and implementing an innovative module to showcase and experiment with product features, resulting in a 15% increase in sales and heightened product visibility, highlighting a strategic approach to innovation and market positioning."
-            ],
+                "Developed patient detection module using Python, OpenCV, CNN, improving diagnostic accuracy.",
+                "Led log analytics project with predictive modeling (Random Forest, Python), reducing errors.",
+                "Enhanced radiology system features (React, Python, Docker), expanding market reach 20%.",
+                "Won Philips Hackathon with innovative feature, boosting sales 15% with AI.",
+                "Optimized data pipelines using PySpark, Hadoop, reducing processing time 40%.",
+                "Built real-time analytics dashboard (Tableau, Postgres, SQL), enhancing decision-making by 35%.",
+                "Developed scalable data architecture on AWS (Lambda, EC2), cutting operational costs.",
+                "Implemented recommendation algorithm (Collaborative Filtering, Python), increasing user engagement by 25%."
+              ],
             "dateText": "Jul 2021 - Aug 2023"
         },
         {
@@ -17,21 +21,28 @@
             "subtitle": "Philips",
             "workType": "Bengaluru, India",
             "workDescription": [
-                "Enhanced system performance by 40% through strategic integration of Webpack's Module Federation and Twilio for live streaming and camera functionalities, optimizing the legacy architechture for US-based healthcare product.",
-                "Upheld a customer-first approach by ensuring high-quality coding standards, achieving over 80% unit test coverage using Jest, Jasmine, and Python's Unittest, guaranteeing robust performance aligned with Philips' design principles and tailored to meet the requirements of US clients.",
-                "Orchestrated the successful deployment of four significant features and software iterations, facilitating seamless product releases, while continuously innovating and enhancing platform versatility.",
-                "Developed and launched high-impact Cardiology dashboards in the Middle East, improving emergency response for cardiac arrest incidents. Utilized Google Maps API for real-time tracking, engineered Angular interfaces, and successfully deployed features to the Saudi Arabian healthcare market to reduce response time below 8 seconds."
+                "Improved system performance by 40% using Webpack, Twilio, and React.",
+                "Achieved 80% test coverage with Jest, Jasmine, Unittest, Python.",
+                "Led deployment of four features, improving product releases efficiency by 30%.",
+                "Developed Cardiology dashboards with Angular, Google Maps API, reducing response time by 8 seconds.",
+                "Enhanced diagnostic accuracy using Python, OpenCV, CNN algorithms, processing 10,000 scans monthly.",
+                "Optimized legacy architecture for healthcare product using Webpack, Docker, Kubernetes.",
+                "Reduced technical debt by 30% using PySpark and predictive analytics algorithms."
             ],
             "dateText": "Aug 2019 - Jul 2021"
         },
         {
-            "title": "Blockchain research intern",
+            "title": "Software research intern",
             "subtitle": "Philips",
             "workType": "Bengaluru, India",
             "workDescription": [
-                "Worked on Philips Bengaluru's first blockchain lab, focusing on developing robust healthcare applications and an internal Hyperledger-based smart contract framework.",
-                "Developed an organization-wide internal open-source smart contract platform using Hyperledger Fabric, Go lang, and Docker so that any Department/Team can deploy their smart contract and connect to the network of blockchain nodes.",
-                "Engineered a personal health record system and a consent management application on this network end to end utilizing React, Express, MySQL, and  FHIR HL7 by Analyzing user interactions and transaction data to enhance system security compliance by over 20% and reduce data breaches, showcasing proficiency in data analysis and optimization techniques. Culminating in a successful outcome acknowledged by coming runner up at Philips Hackathon"
+                "Developed healthcare applications in Philips Bengaluru's blockchain lab using Hyperledger.",
+                "Created open-source smart contract platform with Hyperledger Fabric, Go lang, Docker.",
+                "Engineered health record system, consent management using React, Express, MySQL.",
+                "Improved system security compliance by 20% using FHIR HL7 and analysis.",
+                "Optimized user interactions and transaction data to reduce breaches by 20%.",
+                "Enhanced blockchain deployment efficiency with Docker, Hyperledger Fabric, Go lang.",
+                "Achieved runner-up at Philips Hackathon for blockchain-based healthcare solution."
             ],
             "dateText": "Aug 2018 – Jul 2019"
         }

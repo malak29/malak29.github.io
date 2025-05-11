@@ -1,5 +1,25 @@
 {
-    "about": "Hi  I'm Malak Parmar! A passionate Software Engineer with a deep fascination for AI, machine learning, and computer vision. With five years of experience in agile full-stack product development, I've honed my skills in creating detailed, user-centric solutions and transitioning complex applications to micro frontends. My journey in technology is fueled by a constant curiosity and a keen eye for detail, driving me to continually explore new realms within AI, particularly in image and video analysis. Outside of programming, I immerse myself in the world of Anime and Movies, drawing inspiration from their rich visual effects. I like to sketch, paint and make digital art, checkout my Instagram. Also, as an avid gamer, I enjoy strategic challenges in Counter-Strike and Dota, which sharpen my decision-making skills and reflexes. Join me as we explore the cutting-edge advancements in technology and uncover the potential of AI together!",
-    "imageSource": "images/about/profile.png"
+    "imageSource": "images/about/profile.png",
+    "about": [
+        "Hi  I'm Malak Parmar! 🙋🏻",
+        "Passionate software engineer exploring AI, machine learning, and computer vision.",
+        "Five years' experience in agile machine learning & full-stack product development.",
+        "Specialized in user-centric design and micro service & micro frontend architecture. ",
+        "Deep curiosity fuels my drive to master innovative AI solutions.",
+        "Anime and movies inspire my creativity and visual storytelling approach.",
+        "I create digital art—sketching, painting, and sharing on Instagram.",
+        "Competitive gamer enhancing reflexes through Counter-Strike and Dota."
+    ]
     
+
+
+
+
+
+
+
+
+
+
+
 }
