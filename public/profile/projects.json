@@ -2,7 +2,7 @@
     "projects": [
         {
             "image": "",
-            "title": "TensorFlow based Object Detection System",
+            "title": "Advanced Power Estimation using Traditional ML and Physics-Informed Neural Networks",
             "bodyText": "- Developed a real-time object detection model with 90% accuracy.\n - Utilized YOLOv4 for diverse object identification tasks.\n - Improved processing speed by optimizing TensorFlow and GPU usage.",
             "links": [
                 {
@@ -87,7 +87,12 @@
             "image": "",
             "title": "Boston Check Book Analytics",
             "bodyText": "- Conducted financial data analysis, improving budget efficiency by 15%.\n - Leveraged PySpark for big data processing and insights.\n - Created interactive Tableau dashboards, deployed via Django.",
-            "links": [],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/malak29/electric-vehicle-population-analysis"
+                }
+            ],
             "tags": [
                 "PySpark",
                 "Tableau",
@@ -97,38 +102,6 @@
                 "Numpy",
                 "Hadoop",
                 "SQL"
-            ]
-        },
-        {
-            "image": "",
-            "title": "Elderly Mediclaim Analytics",
-            "bodyText": "- Optimized mediclaim approvals, reducing processing time by 40%.\n - Utilized Random Forest and logistic regression on historical data.\n - Deployed Flask API with React user interface.",
-            "links": [],
-            "tags": [
-                "Random Forest",
-                "Logistic Regression",
-                "Flask",
-                "React",
-                "Python",
-                "Scikit-learn",
-                "Pandas",
-                "Numpy"
-            ]
-        },
-        {
-            "image": "",
-            "title": "Federated Learning for Hospital Branches",
-            "bodyText": "- Implemented federated learning, enhancing prediction accuracy by 12% across hospitals.\n - Maintained data privacy using secure aggregation techniques.\n - Coordinated model training with PySyft and PyTorch.",
-            "links": [],
-            "tags": [
-                "Federated Learning",
-                "PySyft",
-                "PyTorch",
-                "Docker",
-                "Kubernetes",
-                "Python",
-                "Pandas",
-                "Numpy"
             ]
         }
     ]

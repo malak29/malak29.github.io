@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
@@ -13,7 +12,7 @@ const styles = {
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
-    fontSize: '1.2em',
+    fontSize: '1em',
     fontWeight: 500,
   },
   introImageContainer: {
@@ -27,12 +26,6 @@ const styles = {
 function About(props) {
   const { header } = props;
   const [data, setData] = useState(null);
-
-  const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
-  );
 
   useEffect(() => {
     fetch(endpoints.about, {
@@ -58,7 +51,9 @@ function About(props) {
                 ) : <></>}
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
+                    {data.about.map((line) => (
+                      <p>{line}</p>
+                    ))}
                   </Col>
                   {window?.innerWidth > 576 ? (
                     <Col style={styles.introImageContainer}>

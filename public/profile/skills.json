@@ -1,9 +1,16 @@
 {
-    "intro": "Throughout my academic and professional journey, I've cultivated a diverse skill set in machine learning frameworks and software engineering, driven by a deep passion for innovation and a relentless pursuit of mastery at the forefront of AI and software development.",
+    "intro": [
+        "I bring a strong foundation in machine learning frameworks & software engineering, shaped through  hands-on experience and academic training.",
+        "My passion for innovation drives me to build impactful AI solutions and stay at the forefront of emerging technologies."
+    ],
     "skills": [
         {
             "title": "Machine Learning",
             "items": [
+                {
+                    "icon": "images/skills/Math.png",
+                    "title": "Mathematics"
+                },
                 {
                     "icon": "images/skills/java.png",
                     "title": "Python"

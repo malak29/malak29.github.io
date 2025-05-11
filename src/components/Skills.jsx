@@ -9,18 +9,24 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   iconStyle: {
-    height: 50,
-    width: 50,
+    height: 70,
+    width: 70,
     margin: 15,
     marginBottom: 0,
     cursor: 'pointer',
   },
   introTextContainer: {
     whiteSpace: 'pre-wrap',
-    fontSize: '1.5rem',
+    fontSize: '1rem',
   },
   skill: {
     display: 'inline-block',
+  },
+  mathIconStyle: {
+    width: 80,
+    height: 70,
+    borderRadius: 2.5,
+    filter: 'invert(155%) sepia(63%) saturate(538%) hue-rotate(140deg) brightness(90%) contrast(92%)',
   },
 };
 
@@ -30,7 +36,8 @@ function Skills(props) {
 
   const renderSkillsIntro = (intro) => (
     <h4 style={styles.introTextContainer}>
-      <ReactMarkdown children={intro} />
+      <ReactMarkdown children={intro[0]} />
+      <ReactMarkdown children={intro[1]} />
     </h4>
   );
 
@@ -60,7 +67,7 @@ function Skills(props) {
                       {rows.items.map((item) => (
                         <div key={item.title} style={styles.skill}>
                           <img
-                            style={styles.iconStyle}
+                            style={item.title === 'Mathematics' ? { ...styles.iconStyle, ...styles.mathIconStyle } : styles.iconStyle}
                             src={item.icon}
                             alt={item.title}
                           />
