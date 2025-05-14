@@ -3,21 +3,14 @@
         {
             "image": "",
             "title": "Advanced Power Estimation using Traditional ML and Physics-Informed Neural Networks",
-            "bodyText": "- Developed a real-time object detection model with 90% accuracy.\n - Utilized YOLOv4 for diverse object identification tasks.\n - Improved processing speed by optimizing TensorFlow and GPU usage.",
-            "links": [
+            "bodyText": "- Utilized Physics-Informed Neural Networks for thermal modeling.\n - Implemented RNN, LSTM, GRU for sequence learning.\n - Processed five-minute interval weather data using Energy plus.\n - Estimated energy consumption in multi-zone commercial buildings.\n - Presented findings at WSU Advanced Grid Institute 2024.\n - Achieved power utilization prediction accuracy of 92.3%.",            "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/malak29/object-recognition-project"
+                    "href": "https://github.com/malak29/Advance-power-estimation-ML-PINNs"
                 }
             ],
             "tags": [
-                "TensorFlow",
-                "OpenCV",
-                "Docker",
-                "Kubernetes",
-                "Python",
-                "Numpy",
-                "Pandas"
+                "Tensorflow", "Python", "Matplotlib", "EnergyPlus","LSTM", "GRU", "PINNs", "Regression"
             ]
         },
         {
