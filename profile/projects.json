@@ -3,99 +3,55 @@
         {
             "image": "",
             "title": "Advanced Power Estimation using Traditional ML and Physics-Informed Neural Networks",
-            "bodyText": "- Utilized Physics-Informed Neural Networks for thermal modeling.\n - Implemented RNN, LSTM, GRU for sequence learning.\n - Processed five-minute interval weather data using Energy plus.\n - Estimated energy consumption in multi-zone commercial buildings.\n - Presented findings at WSU Advanced Grid Institute 2024.\n - Achieved power utilization prediction accuracy of 92.3%.",            "links": [
+            "bodyText": "- Utilized Physics-Informed Neural Networks for thermal modeling.\n - Implemented RNN, LSTM, GRU for sequence learning.\n - Processed five-minute interval weather data using Energy plus.\n - Estimated energy consumption in multi-zone commercial buildings.\n - Presented findings at WSU Advanced Grid Institute 2024.\n - Achieved power utilization prediction accuracy of 92.3%.",
+            "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/malak29/Advance-power-estimation-ML-PINNs"
                 }
             ],
             "tags": [
-                "Tensorflow", "Python", "Matplotlib", "EnergyPlus","LSTM", "GRU", "PINNs", "Regression"
+                "Tensorflow", "Python", "Matplotlib", "EnergyPlus", "LSTM", "GRU", "PINNs", "Regression"
             ]
         },
         {
             "image": "",
-            "title": "Deep Learning Handwriting Analytics",
-            "bodyText": "- Created a handwriting recognition system with 92% character recognition accuracy.\n - Implemented LSTM networks for sequential data analysis.\n - Deployed the model using Flask with React frontend.",
+            "title": "Crypto Intelligence Chatbot – VesterAI (Capstone)",
+            "bodyText": "- Built RAG chatbot using FastAPI and LangChain.\n- Integrated GPT-4 and Deepseek for intelligence.\n- Stored knowledge embeddings using pgvector index.\n- Designed Airflow pipelines with Docker containers.\n- Reduced ETL latency by 60% overall.\n- Created Plotly dashboards for crypto insights.\n- Increased user onboarding confidence by 40%.\n- Added caching and prompt latency profiling.\n- Processed 3 years of crypto market data.\n- Evaluated prompts with custom metric logs.",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/malak29/handwriting-analysis"
-                }
+              {
+                "text": "GitHub",
+                "href": "https://github.com/malak29/hellovester-backend"
+              },
+              {
+                "text": "VesterAI",
+                "href": "https://vesterai.com/"
+              }
             ],
             "tags": [
-                "TensorFlow",
-                "Keras",
-                "LSTM",
-                "Flask",
-                "React",
-                "Python",
-                "Pandas",
-                "Numpy"
+              "FastAPI", "LangChain", "GPT-4", "Deepseek", "pgvector",
+              "PostgreSQL", "Airflow", "Docker", "Plotly", "Python"
             ]
-        },
-        {
+          },
+          {
             "image": "",
-            "title": "Predictive Heart Attack Risk Analytics",
-            "bodyText": "- Built a model predicting heart attack risks, reducing hospitalizations by 25%.\n - Applied Gradient Boosting and SHAP for interpretability.\n - Integrated with Tableau dashboards and a Django web application.",
+            "title": "Gender Gap Analytics – Dooit (Experiential Learning)",
+            "bodyText": "- Analyzed OpenPayments using PySpark pipelines.\n- Applied KMeans and DBSCAN clustering algorithms.\n- Used Isolation Forest for anomaly detection.\n- Found 43% gender gap reduction pattern.\n- Automated SQL pipelines with Airflow framework.\n- Validated models using silhouette score metrics.\n- Conducted cross-validation to improve accuracy.\n- Improved insights precision by 35% overall.",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                }
+              {
+                "text": "GitHub",
+                "href": "https://github.com/malak29/dooit-gender-gap-analytics"
+              },
+              {
+                "text": "Dooit",
+                "href": "https://www.dooit.biz/"
+              }
             ],
             "tags": [
-                "Gradient Boosting",
-                "SHAP",
-                "Tableau",
-                "React",
-                "Django",
-                "Python",
-                "Scikit-learn",
-                "Pandas"
+              "PySpark", "KMeans", "DBSCAN", "Isolation Forest",
+              "Airflow", "SQL", "Clustering", "Anomaly Detection",
+              "OpenPayments", "Silhouette Score"
             ]
-        },
-        {
-            "image": "",
-            "title": "Electric Vehicle Population Analytics",
-            "bodyText": "- Analyzed EV adoption patterns, predicting a 30% increase in five years.\n - Used clustering and regression models on large datasets.\n - Visualized results through Power BI, supporting policy-making decisions.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/malak29/electric-vehicle-population-analysis"
-                }
-            ],
-            "tags": [
-                "K-means Clustering",
-                "Linear Regression",
-                "Power BI",
-                "Python",
-                "Pandas",
-                "Numpy",
-                "Scikit-learn",
-                "Flask"
-            ]
-        },
-        {
-            "image": "",
-            "title": "Boston Check Book Analytics",
-            "bodyText": "- Conducted financial data analysis, improving budget efficiency by 15%.\n - Leveraged PySpark for big data processing and insights.\n - Created interactive Tableau dashboards, deployed via Django.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/malak29/electric-vehicle-population-analysis"
-                }
-            ],
-            "tags": [
-                "PySpark",
-                "Tableau",
-                "Django",
-                "Python",
-                "Pandas",
-                "Numpy",
-                "Hadoop",
-                "SQL"
-            ]
-        }
+          }
     ]
 }
