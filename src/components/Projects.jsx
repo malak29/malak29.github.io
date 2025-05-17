@@ -47,7 +47,7 @@ const Projects = (props) => {
                 ))}
               </Row>
 
-              {!showMore
+              {!showMore && numberOfItems > 6
                 && (
                 <Button
                   style={styles.showMoreStyle}
