@@ -1,0 +1,27 @@
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    svg {
+        width: 1.1em !important;
+        height: 1.1em !important;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+    img {
+        width: 26.4px !important;
+        &:hover {
+            filter: brightness(0) saturate(100%) invert(83%) sepia(22%) saturate(728%) hue-rotate(8deg) brightness(96%) contrast(93%) !important;
+        }
+    }
+    .dark-mode .social_icons img {
+        filter: brightness(0) invert(1);
+    }
+    .light-mode .social_icons img {
+        filter: brightness(0) saturate(100%) invert(29%) sepia(19%) saturate(893%) hue-rotate(171deg) brightness(94%) contrast(92%);
+    }
+}

@@ -1,0 +1,38 @@
+.vertical-timeline span {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
+.vertical-timeline p {
+    color: #3A5C7C;
+}
+
+.vertical-timeline-element p {
+    color: #3A5C7C;
+}
+
+.vertical-timeline-element h3 {
+    color: #3A5C7C;
+}
+
+.vertical-timeline-element h4 {
+    color: #3A5C7C;
+}
+
+.vertical-timeline-element span {
+    color: #3A5C7C;
+}
+
+.vertical-timeline-element .vertical-timeline-element-date {
+    color: white;
+}
+
+.svg-inline--fa {
+    color: white;
+}
+
+@media screen and (max-width: 1170px) {
+    .vertical-timeline-element .vertical-timeline-element-date {
+        color: #3A5C7C;
+    }
+}
