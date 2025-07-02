@@ -17,7 +17,7 @@ function ResearchTimeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Jan 2024 - Aug 2024"
             iconStyle={{ background: 'rgb(58, 92, 124', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGoogleScholar as IconProp} />}
           >
@@ -35,7 +35,7 @@ function ResearchTimeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Jul 2018 - May 2019"
             iconStyle={{ background: 'rgb(58, 92, 124', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGoogleScholar as IconProp} />}
           >
