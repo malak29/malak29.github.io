@@ -37,7 +37,7 @@ function App() {
             <Timeline/>
             <AcademicTimeline/>
             <ResearchTimeline />
-            {/* <Project/> */}
+            <Project/>
             {/* <Contact/> */}
         </FadeIn>
         <Footer />
