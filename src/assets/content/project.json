@@ -1,0 +1,37 @@
+[
+    {
+    "title": "Heart Attack Risk Analysis",
+    "category": "Machine Learning",
+    "image": "./images/heart.jpg",
+    "link": "https://github.com/malak29/heart-attack-risk-analysis",
+    "description": "Complete machine learning pipeline to predict heart attack risk. Includes data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and interactive visualizations."
+  },
+  {
+    "title": "Electric Vehicle Population Analysis",
+    "category": "Machine Learning",
+    "image": "./images/ev.jpg",
+    "link": "https://github.com/malak29/electric-vehicle-population-analysis",
+    "description": "Comprehensive EDA of EV registrations with data quality checks, geographic breakdowns, range analysis, and interactive Plotly visualizations."
+  },
+  {
+    "title": "IAM Microservices Platform",
+    "category": "Backend",
+    "image": "./images/iamms.jpg",
+    "link": "https://github.com/malak29/iam-microservices-platform",
+    "description": "Enterprise-grade Identity and Access Management platform built with Spring Boot microservices, PostgreSQL, Redis, Docker, and JWT. Supports authentication, authorization, and scalable deployment."
+  },
+  {
+    "title": "IAM Express API",
+    "category": "Backend",
+    "image": "./images/iamapp.jpg",
+    "link": "https://github.com/malak29/iam-express-app",
+    "description": "Role-based user management REST API using Node.js, TypeScript, Express, and JWT with Zod validation and Dockerized deployment."
+  },
+  {
+    "title": "Climate-Driven Rainfall Variability",
+    "category": "Machine Learning",
+    "image": "./images/rainfall.jpg",
+    "link": "https://github.com/malak29/climate-driven-rainfall-variability",
+    "description": "Research project analyzing the impact of climate drivers on rainfall variability. Features statistical modeling, data visualization, and predictive insights into climate patterns."
+  }
+]

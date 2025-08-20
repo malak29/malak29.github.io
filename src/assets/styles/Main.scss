@@ -24,7 +24,9 @@
 }
 .social_icons img, .mobile_social_icons img {
     width: 32px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* slower transition */
     &:hover {
+        transform: scale(1.2); // slight zoom
         filter: brightness(0) saturate(100%) invert(83%) sepia(22%) saturate(728%) hue-rotate(8deg) brightness(96%) contrast(93%);
     }
 }
@@ -41,7 +43,12 @@
 
         svg {
             font-size: 1.8em;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* slower transition */
+            &:hover {
+                transform: scale(1.2); // slight zoom
+            }
         }
+
     }
 
     .mobile_social_icons {
@@ -53,6 +60,10 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
         cursor: pointer;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* slower transition */
+        &:hover {
+            transform: scale(1.05); // slight zoom
+        }
     }
     p span:hover {
         filter: brightness(0) saturate(100%) invert(83%) sepia(22%) saturate(728%) hue-rotate(8deg) brightness(96%) contrast(93%);
@@ -62,9 +73,13 @@
         font-size: 5em;
         margin-block-start: 0px;
         margin-block-end: 0px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* slower transition */
+        cursor: pointer;
         &:hover {
             filter: brightness(0) saturate(100%) invert(83%) sepia(22%) saturate(728%) hue-rotate(8deg) brightness(96%) contrast(93%);
+            transform: scale(1.05); // slight zoom: .about;
         }
+        
     }
 }
 
@@ -74,6 +89,8 @@
         width: 400px;
         border-radius: 50%;
         object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* slower transition */
 
         /* Radial blur mask */
         -webkit-mask-image: radial-gradient(circle, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 65.5%, rgba(0, 0, 0, 0) 68%);
@@ -83,6 +100,10 @@
         -webkit-mask-size: 100% 100%;
         mask-repeat: no-repeat;
         mask-size: 100% 100%;
+        &:hover {
+        transform: scale(1.05); // slight zoom
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2); // optional shadow
+        }
     }
 }
 
