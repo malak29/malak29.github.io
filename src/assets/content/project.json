@@ -1,37 +1,129 @@
 [
-    {
-    "title": "Heart Attack Risk Analysis",
+  {
+    "title": "Federated Learning for Healthcare Facial Recognition",
     "category": "Machine Learning",
-    "image": "./images/heart.jpg",
-    "link": "https://github.com/malak29/heart-attack-risk-analysis",
-    "description": "Complete machine learning pipeline to predict heart attack risk. Includes data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and interactive visualizations."
+    "image": "./images/face.jpg",
+    "link": "https://github.com/malak29/facial-recognition-fl",
+    "description": "Privacy-preserving facial recognition system enabling hospitals to collaborate on model training while maintaining HIPAA compliance.",
+    "tech": ["PyTorch", "TensorFlow Privacy", "OpenCV", "FastAPI"],
+    "methods": ["Differential Privacy", "Bias Mitigation", "Secure Aggregation", "FedAvg Algorithm"]
   },
   {
-    "title": "Electric Vehicle Population Analysis",
-    "category": "Machine Learning",
-    "image": "./images/ev.jpg",
-    "link": "https://github.com/malak29/electric-vehicle-population-analysis",
-    "description": "Comprehensive EDA of EV registrations with data quality checks, geographic breakdowns, range analysis, and interactive Plotly visualizations."
+    "title": "DiagnoChain MVP",
+    "category": "Blockchain",
+    "image": "./images/blockchain.jpg",
+    "link": "https://github.com/malak29/diagnochain-mvp",
+    "description": "Decentralized healthcare data management platform with blockchain integration and HIPAA compliance.",
+    "tech": ["Ethereum", "Solidity", "IPFS", "Bitcoin Lightning"],
+    "methods": ["Smart Contracts", "Zero-Knowledge Proofs", "Multi-Signature Wallets", "Distributed Storage"]
   },
   {
     "title": "IAM Microservices Platform",
     "category": "Backend",
     "image": "./images/iamms.jpg",
     "link": "https://github.com/malak29/iam-microservices-platform",
-    "description": "Enterprise-grade Identity and Access Management platform built with Spring Boot microservices, PostgreSQL, Redis, Docker, and JWT. Supports authentication, authorization, and scalable deployment."
+    "description": "Enterprise-grade Identity and Access Management platform with Spring Boot microservices architecture.",
+    "tech": ["Spring Boot", "PostgreSQL", "Redis", "Docker"],
+    "methods": ["Microservices Architecture", "JWT Authentication", "API Gateway", "Service Mesh"]
+  },
+  {
+    "title": "Advanced Power Estimation using Traditional ML and Physics-Informed Neural Networks",
+    "category": "Machine Learning",
+    "image": "./images/power.jpg",
+    "link": "https://github.com/malak29/Advance-power-estimation-ML-PINNs",
+    "description": "Comprehensive framework integrating traditional ML with Physics-Informed Neural Networks for power and temperature predictions.",
+    "tech": ["Python", "TensorFlow", "Keras", "NumPy"],
+    "methods": ["Physics-Informed Neural Networks", "Hybrid Modeling", "Kernel Density Estimation", "Domain-Specific Physics"]
+  },
+  {
+    "title": "Heart Attack Risk Analysis",
+    "category": "Machine Learning",
+    "image": "./images/heart.jpg",
+    "link": "https://github.com/malak29/heart-attack-risk-analysis",
+    "description": "Production-ready ML system for predicting heart attack risk with 94.3% accuracy using ensemble methods.",
+    "tech": ["FastAPI", "React", "Scikit-learn", "Prometheus"],
+    "methods": ["Random Forest", "A/B Testing", "Data Drift Detection", "Auto-scaling"]
+  },
+
+  {
+    "title": "Boston Expenditure Analytics API",
+    "category": "Machine Learning",
+    "image": "./images/boston.jpg",
+    "link": "https://github.com/malak29/boston-expenditure-analytics",
+    "description": "Production backend system for analyzing Boston's government expenditure data with real-time analytics.",
+    "tech": ["FastAPI", "PostgreSQL", "Celery", "Prometheus"],
+    "methods": ["ML Clustering", "Background Processing", "Real-time Analytics", "Automated Ingestion"]
   },
   {
     "title": "IAM Express API",
     "category": "Backend",
     "image": "./images/iamapp.jpg",
     "link": "https://github.com/malak29/iam-express-app",
-    "description": "Role-based user management REST API using Node.js, TypeScript, Express, and JWT with Zod validation and Dockerized deployment."
+    "description": "Comprehensive REST API for user management with role-based authorization and TypeScript implementation.",
+    "tech": ["Node.js", "Express", "TypeScript", "Zod"],
+    "methods": ["JWT Authentication", "Role-Based Access Control", "Input Validation", "Department Management"]
   },
   {
-    "title": "Climate-Driven Rainfall Variability",
+    "title": "Video Text Detection System",
+    "category": "Machine Learning",
+    "image": "./images/video.jpg",
+    "link": "https://github.com/malak29/video-text-detection-system",
+    "description": "Production API for detecting and recognizing text in video files using deep learning models.",
+    "tech": ["PyTorch", "FastAPI", "Streamlit", "Celery"],
+    "methods": ["DBNet Text Detection", "CRNN Recognition", "GPU Acceleration", "Background Processing"]
+  },
+  {
+    "title": "Cardiovascular Disease Prediction System",
+    "category": "Machine Learning",
+    "image": "./images/cardio.jpg",
+    "link": "https://github.com/malak29/cardiovascular-prediction-system",
+    "description": "AI-powered system for predicting cardiovascular disease risk with 90% ROC-AUC accuracy.",
+    "tech": ["FastAPI", "React", "Scikit-learn", "PostgreSQL"],
+    "methods": ["Random Forest", "FHIR Compliance", "Real-time Processing", "EHR Integration"]
+  },
+  {
+    "title": "Respiratory Mortality Analysis System",
+    "category": "Machine Learning",
+    "image": "./images/respiratory.jpg",
+    "link": "https://github.com/malak29/respiratory-mortality-analysis",
+    "description": "Production ML platform analyzing CDC WONDER database with 75.21% accuracy using Random Forest.",
+    "tech": ["FastAPI", "PostgreSQL", "Celery", "MLflow"],
+    "methods": ["Random Forest", "Feature Engineering", "Temporal Analysis", "Geographic Mapping"]
+  },
+  {
+    "title": "Electric Vehicle Population Analysis",
+    "category": "Machine Learning",
+    "image": "./images/ev.jpg",
+    "link": "https://github.com/malak29/electric-vehicle-population-analysis",
+    "description": "Production ML platform analyzing EV adoption patterns with 94.3% accuracy using ensemble methods.",
+    "tech": ["FastAPI", "React", "Scikit-learn", "MLflow"],
+    "methods": ["Random Forest", "Gradient Boosting", "Real-time Predictions", "Model Versioning"]
+  },
+  {
+    "title": "Urban Analytics Platform",
+    "category": "Machine Learning",
+    "image": "./images/urban.jpg",
+    "link": "https://github.com/malak29/urban-analytics-platform",
+    "description": "Data visualization platform analyzing 3M+ NYC noise complaints and higher education metrics.",
+    "tech": ["Next.js", "FastAPI", "PostgreSQL", "D3.js"],
+    "methods": ["Geographic Hotspot Analysis", "Temporal Pattern Analysis", "Interactive Dashboards", "Real-time Visualization"]
+  },
+  {
+    "title": "Indian Rainfall Analytics Dashboard",
     "category": "Machine Learning",
     "image": "./images/rainfall.jpg",
     "link": "https://github.com/malak29/climate-driven-rainfall-variability",
-    "description": "Research project analyzing the impact of climate drivers on rainfall variability. Features statistical modeling, data visualization, and predictive insights into climate patterns."
+    "description": "Government decision support system analyzing 114 years of rainfall data with 87% prediction accuracy.",
+    "tech": ["Python", "React", "PostgreSQL", "TensorFlow"],
+    "methods": ["Ensemble Models", "Time Series Analysis", "Risk Assessment", "Government Integration"]
+  },
+  {
+    "title": "River Herring Habitat Analysis",
+    "category": "Machine Learning",
+    "image": "./images/herring.jpg",
+    "link": "https://github.com/malak29/river-herring-habitat-analysis",
+    "description": "Spatial analysis of spawning habitats and migration barriers in Massachusetts coastal waters.",
+    "tech": ["ArcGIS Pro", "Python", "Spatial Analysis", "GIS"],
+    "methods": ["Kernel Density Estimation", "Buffer Zone Analysis", "Barrier Identification", "Conservation Strategy"]
   }
 ]

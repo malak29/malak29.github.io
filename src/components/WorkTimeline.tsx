@@ -75,7 +75,7 @@ function Timeline() {
             <p>Developed patient detection module with Python, OpenCV, improving diagnostics accuracy.</p>
             <p>Led log analytics project using Random Forest, reducing critical errors.</p>
             <p>Built real-time dashboards with Tableau and SQL, enhancing decisions by 35%.</p>
-            <p>Implemented recommendation algorithm in Python, increasing user engagement twenty-five percent.</p>
+            <p>Mentored and onboarded colleagues in cross functional teams to get production ready.</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -89,7 +89,7 @@ function Timeline() {
             <p>Reduced payment frauds using Solidity and Web3.js smart contracts.</p>
             <p>Improved system performance 40% using React, Twilio, and Webpack tools.</p>
             <p>Built cardiology dashboards with Angular, Maps API, improving response time.</p>
-            <p>Enhanced scan accuracy with OpenCV, CNN, processing 10,000 monthly images.</p>
+            <p>Implemented recommendation algorithm in Python, increasing user engagement twenty-five percent.</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import projectsData from "../assets/content/project.json";
 import "../assets/styles/Project.scss";
 import Button from "@mui/material/Button";
+import Chip from "@mui/material/Chip";
 
 function Project() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -34,18 +35,33 @@ function Project() {
       <div className="projects-grid">
         {filteredProjects.map((project, index) => (
           <div className="project" key={index}>
-            <a href={project.link} target="_blank" rel="noreferrer">
+            <a href={project.link} target="_blank" rel="noreferrer" className="image-link">
               <img
                 src={project.image}
                 className="zoom"
                 alt="thumbnail"
-                width="50%"
               />
             </a>
             <a href={project.link} target="_blank" rel="noreferrer">
               <h2>{project.title}</h2>
             </a>
             <p>{project.description}</p>
+
+            {/* Tech Chips */}
+            <div className="flex-chips">
+              <span className="chip-title">Tech:</span>
+              {project.tech?.map((t, i) => (
+                <Chip key={i} className="chip" label={t} />
+              ))}
+            </div>
+
+            {/* Methods Chips */}
+            <div className="flex-chips">
+              <span className="chip-title">Methods:</span>
+              {project.methods?.map((m, i) => (
+                <Chip key={i} className="chip" label={m} />
+              ))}
+            </div>
           </div>
         ))}
       </div>
