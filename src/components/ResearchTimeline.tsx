@@ -23,10 +23,10 @@ function ResearchTimeline() {
           >
             <h3 className="vertical-timeline-element-title">Research Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">Washington State University - Remote</h4>
-            <p>Presented poster "Buildings as a GridEdge Resource" with Ninad Gaikwad at WSU GridEdge event <a href="https://www.linkedin.com/posts/ninadkirangaikwad_gridedge-sciml-generativeai-ugcPost-7234941650945327106-XNXd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACIbsx8Bb-cMaW0OJeE2dEjO12TYsaFn9OE"
+            <p>Presented poster "Buildings as a GridEdge Resource" with Ninad Gaikwad at WSU GridEdge event <a href="https://www.researchgate.net/publication/384605221_From_Basic_ANN_to_Scientific_ML-Based_Building_Thermal_Models_For_Grid-Edge_Applications?channel=doi&linkId=66ff27e4f599e0392fb4ff2d&showFulltext=true"
               target="_blank"
               style={{ color: "#4e779e" }}>
-              (View post)
+              (View poster)
             </a>.</p>
             <p>Fused PINNs and NeuralODEs for precise building thermal modeling.</p>
             <p>Modeled multi-zone buildings as simplified ANN-based single-zone systems.</p>
